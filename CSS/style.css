@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Barlow";
+  src: url(https://www.fontsquirrel.com/fonts/barlow);
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  background-color: #eff6ff;
+  background-image: url("/css-task/img/bg.jpg");
+  width: 759px;
+  height: 980px;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.title {
+  padding-top: 15px;
+  margin-top: 15px;
+}
+.text {
+  padding-top: 15px;
+  margin-top: 15px;
+}
+.texts {
+  font-family: "Barlow", sans-serif;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.social-container {
+  display: flex;
+  gap: 40px;
+  margin: 45px;
+}
+.fb-button:hover {
+  color: #44ace4;
+  text-decoration: underline;
+}
+.ln-button:hover {
+  color: #7ccaf5;
+  text-decoration: underline;
+}
+.fb-button,
+.ln-button {
+  flex: 1;
+  width: 30px;
+  height: 60px;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.fb-button {
+  background-color: #255a9b;
+}
+.ln-button {
+  background-color: #0076b6;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  margin-right: 25px;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  height: 3px;
+  background: #eee;
+}
+.separator span {
+  margin: 0 20px;
+}
+.input-container {
+  display: flex;
+  gap: 40px;
+  margin: 45px;
+  border: #eeeeee;
+  margin-left: 100px;
+}
+.field-group {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 30px;
+}
+input {
+  padding: 5px;
+  width: 180px;
+  height: 35 px;
+}
+.radio-group {
+  display: flex;
+}
+.radio-group > input {
+  cursor: pointer;
+  content: "";
+  padding: 20px;
+  width: 100px;
+  margin-left: 20px
+}
+.info-icon {
+  display: flex;
+  width: 15px;
+  height: 10px;
+  flex-direction: column;
+}
+.info-box {
+  font-size: calc(13px);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  width: 170px;
+  height: 65px;
+  padding: 15px;
+  background-color: white;
+  border: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 62px;
+   box-shadow: 2px 4px 6px rgba(0,0,0,0.3);
+}
+.main-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.left-side {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.check-box {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 140px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.check-box label {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.checkbox-btn {
+  width: 10px;
+}
+.create-acc {
+  background-color: #3698fb;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 60px;
+
+}
+.create-acc:hover {
+  background-color: #2980b9;
+}
+.investor-selection {
+  margin-left: 70px;
+}
