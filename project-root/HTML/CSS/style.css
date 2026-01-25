@@ -1,12 +1,13 @@
 @font-face {
   font-family: "Barlow";
-  src: url(https://www.fontsquirrel.com/fonts/barlow);
-  font-weight: normal;
-  font-style: normal;
+ src: url("/HTML/fonts/Barlow-Black.otf") format("opentype");
+}
+body {
+  font-family: "Barlow", sans-serif;
 }
 .container {
   background-color: #eff6ff;
-  background-image: url("/css-task/img/bg.jpg");
+  background-image: url("/css-task'/img/bg.jpg");
   width: 759px;
   height: 980px;
   position: relative;
@@ -27,7 +28,6 @@
   margin-top: 15px;
 }
 .texts {
-  font-family: "Barlow", sans-serif;
   padding: 20px;
   margin: 20px;
   margin-left: 50px;
@@ -108,17 +108,18 @@ input {
   content: "";
   padding: 20px;
   width: 100px;
-  margin-left: 20px
+  margin-left: 20px;
 }
 .info-icon {
   display: flex;
-  width: 15px;
+  width: 10px;
   height: 10px;
   flex-direction: column;
+  cursor: pointer;
 }
 .info-box {
   font-size: calc(13px);
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   width: 170px;
   height: 65px;
   padding: 15px;
@@ -127,7 +128,7 @@ input {
   border-radius: 8px;
   margin-top: 20px;
   margin-left: 62px;
-   box-shadow: 2px 4px 6px rgba(0,0,0,0.3);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
 }
 .main-wrapper {
   display: flex;
@@ -151,8 +152,8 @@ input {
   margin-bottom: 60px;
 }
 .check-box label {
-    margin-left: 10px;
-    margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 30px;
 }
 .checkbox-btn {
   width: 10px;
@@ -167,7 +168,6 @@ input {
   cursor: pointer;
   margin-top: 10px;
   margin-left: 60px;
-
 }
 .create-acc:hover {
   background-color: #2980b9;
