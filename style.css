@@ -61,7 +61,6 @@ body {
 }
 .fb-button {
   cursor: pointer;
-  gap: px;
   display: flex;
   align-items: center;
   background-color: #255a9b;
@@ -179,17 +178,14 @@ body {
 
 .check-box {
   display: flex;
-  flex-direction: row-reverse;
-  margin: 30px 115px 60px 0px;
-  cursor: pointer;
-}
-.check-box label {
-  color: #afafaf;
-  margin: 10px 30px 0px 65px;
+  margin: 30px 0px 60px 65px;
   cursor: pointer;
 }
 .checkbox-btn {
   width: 10px;
+}
+.check-box label {
+   color: #7b8a92;
 }
 .check-box a {
   color: #3698fb;
